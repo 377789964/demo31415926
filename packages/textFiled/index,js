@@ -1,0 +1,8 @@
+import textField from './src/textField';
+
+/* istanbul ignore next */
+textField.install = function(Vue) {
+  Vue.component(textField.name, textField);
+};
+
+export default textField;
